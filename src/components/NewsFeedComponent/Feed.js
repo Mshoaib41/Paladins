@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { StyleSheet, Text, View, ImageBackground, TouchableOpacity } from 'react-native'
 import { AntDesign } from '@expo/vector-icons';
 import Colors from '../../util/color';
-import { ImageData } from '../../util/data'
+
 
 const Feed = ({ item }) => {
     const [isLike, setIsLike] = useState(item.isLiked);
